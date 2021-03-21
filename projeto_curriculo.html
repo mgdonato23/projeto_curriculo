@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>PROJETO</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+	<script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="projeto_curriculo.js"></script>
+  </head>
+  <body>  
+    <div class="container">
+		<header>
+		  <h1>Cadastro de Curriculum</h1>
+		</header>		
+		<section>
+		  <div class="row">
+		    <div class="col-sm-6">
+			  <label for="nome">Nome:</label>
+			  <input type="text" id="nome" name="nome" class="form-control" />
+			  <label for="endereco">Endereço:</label>
+			  <input type="text" id="endereco" name="endereco" class="form-control" />
+			  <label for="telefone">Telefone:</label>
+			  <input type="text" id="telefone" name="telefone" class="form-control" />
+			  <label for="email">E-mail:</label>
+			  <input type="text" id="email" name="email" class="form-control" />
+			  <label for="rg">RG:</label>
+			  <input type="text" id="rg" name="rg" class="form-control" />
+			  <label for="dataNascimento">Data de Nascimento:</label>
+			  <input type="text" id="dataNascimento" name="dataNascimento" class="form-control" />
+			  <label for="sexo">Sexo:</label>
+			  <input type="text" id="sexo" name="sexo" class="form-control" />
+			  <br />
+			  <h2>Formação Acadêmica</h2>
+			  <label for="instituicao">Instituição:</label>
+			  <input type="text" id="instituicao" name="instituicao" class="form-control" />
+			  <label for="curso">Curso:</label>
+			  <input type="text" id="curso" name="curso" class="form-control" />
+			  <label for="dataInicio">Data de Inicio:</label>
+			  <input type="text" id="dataInicio" name="dataInicio" class="form-control" />
+			  <label for="dataFim">Data de Finalização:</label>
+			  <input type="text" id="dataFim" name="dataFim" class="form-control" />
+			  <br />
+			  <h3> Experiência Profissional</h2>
+			  <label for="empresa">Empresa:</label>
+			  <input type="text" id="empresa" name="empresa" class="form-control" />
+			  <label for="cargo">Cargo:</label>
+			  <input type="text" id="cargo" name="cargo" class="form-control" />
+			  <label for="dataEntrada">Data de Entrada:</label>
+			  <input type="text" id="dataEntrada" name="dataEntrada" class="form-control" />
+			  <label for="dataSaida">Data de Saída:</label>
+			  <input type="text" id="dataSaida" name="dataSaida" class="form-control" />
+			   <label for="funcao">Funções:</label>
+			  <input type="text" id="funcao" name="funcao" class="form-control" />
+			  <br />
+			  <button id="btSalvar" class="btn btn-success">Salvar</button>
+			  <button id="btCancelar" class="btn btn-secundary">Cancelar</button>
+			</div>
+			<div class="col-sm-6">
+			  <button id="btJSON" class="btn btn-primary">JSON</button>
+			  <button id="btAJAX" class="btn btn-primary">AJAX</button>
+			  <span id="dados"></span>
+			  <table id="tabela" class="table"></table>
+			</div>
+		  </div>
+		</section>
+		<footer>
+		
+		</footer>
+	</div>
+  </body>
+</html>
